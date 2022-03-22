@@ -1,0 +1,16 @@
+.character_picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: transform .5s;
+    transform: translateX(0) scale(.9);
+  }
+
+  .character_picture:hover,
+.character_picture:focus { 
+    transform: translateX(8px) scale(1);
+}
+
+
+ 

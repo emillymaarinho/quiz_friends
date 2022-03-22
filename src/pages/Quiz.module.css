@@ -1,0 +1,96 @@
+.success {
+    color: #155724;
+    background-color: #daedda;
+    border-color: #c3e6cb;
+    padding: 5px 80px;
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.error {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6bc;
+    padding: 10px 80px;
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 25px;
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.phrase {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 100px;
+    color: #253b8e;
+}
+
+.question {
+    color:#253b8e;
+    font-size: 30px;
+    margin-bottom: 80px;
+}
+
+.option {
+    font-size: 25px;
+    color: #253b8e;
+    margin-bottom: 30px;
+    cursor: pointer;
+    transition: transform .5s;
+    transform: translateX(0) scale(.9);
+    background-color: #fff;
+    border-color: #c3e6cb;
+    padding: 5px 80px;
+    border: 1px solid;
+    border-radius: 5px;
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.option:hover,
+.option:focus { 
+    transform: translateX(1px) scale(1);
+}
+
+.centered { 
+    text-align: center;
+}
+
+.button {
+    font-size: 20px;
+    cursor: pointer;
+    color: #8b2022;
+    background-color: #616d97;
+    padding: 5px 20px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.direction_btn {
+    flex-direction: row;
+}
+
+.score {
+    margin-top: 15px;
+    color:#253b8e;
+    font-size: 20px;
+}
+
+.message {
+    color:#253b8e;
+    font-size: 30px;
+    margin-top: 400px;  
+}

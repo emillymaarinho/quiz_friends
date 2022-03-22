@@ -1,0 +1,33 @@
+    #character_phrase {
+    color: #253b8e;
+  }
+ 
+  .title_centered {
+    text-align: center;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .text_centered {
+    text-align: center;
+    font-family: Jazz LET, fantasy;
+    margin-bottom: 40px;
+  }
+  
+  .button {
+    outline-style: none;
+  }
+  
+  .footer {
+    width: 100%;
+    position: fixed;
+    bottom: 20px;
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-size: 20px;
+  }
