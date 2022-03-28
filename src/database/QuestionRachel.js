@@ -7,7 +7,7 @@ const QuestionsRachel = { phrase: "No uterus, no opinion.", questions: [
     {
         title: "Antes de Emma, quais foram os nomes que Rachel e Ross consideraram para sua filha?",
         options: ["Camila e Lexie", "Isabella e Dalila", "Sansa e Christine"],
-        answer: "Isabellae Dalila"
+        answer: "Isabella e Dalila"
     },
     {
         title: "Qual destes personagens Rachel pede em casamento?",

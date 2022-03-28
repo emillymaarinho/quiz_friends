@@ -1,5 +1,5 @@
 const QuestionsChandler = {
-    phrase: "blablablabal", questions: [
+    phrase: "Eu não sou bom em dar conselhos. Você quer um comentário sarcástico?", questions: [
         {
             title: "Qual é a profissão da mãe de Chandler?",
             options: ["Drag queen", "Escritora", "Médica"],
@@ -22,7 +22,7 @@ const QuestionsChandler = {
         },
         {
             title: "Qual personagem derrubou um faca nos pés de Chandler, fazendo com que ele perdesse a ponta de um dedo?",
-            options: ["Monica Guller", "Joey Tribbiani", "Phoebe Buffay"],
+            options: ["Monica Gueller", "Joey Tribbiani", "Phoebe Buffay"],
             answer: "Monica Gueller"
         },
         {
@@ -33,4 +33,4 @@ const QuestionsChandler = {
     ]
 }
 
-export default QuestionsChandler
+export default QuestionsChandler;

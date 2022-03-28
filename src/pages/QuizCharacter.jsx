@@ -7,6 +7,7 @@ import QuestionsJoey from '../database/QuestionsJoey';
 import QuestionsRoss from '../database/QuestionsRoss';
 import { useState, useEffect } from 'react';
 import { useLocation } from 'react-router';
+import Score from '../components/Score';
 
 const QuizCharacter = () => {
 
@@ -41,7 +42,7 @@ const QuizCharacter = () => {
         } else if (character === "ross") {
             setQuestionsData(QuestionsRoss);
         }
-    }, [questionsData]);
+    }, [location.search]);
 
     const handleOptionclick = (selectedItem, index) => {
         if (!clicked) {
@@ -53,8 +54,14 @@ const QuizCharacter = () => {
             if (selectedItem === response) {
                 option.className = styles.success;
                 setScore(score + 1);
+                setTimeout(function () {
+                    option.className = styles.option;
+                }, 1000);
             } else {
                 option.className = styles.error;
+                setTimeout(function () {
+                    option.className = styles.option;
+                }, 1000);
             };
         };
     };
@@ -63,7 +70,7 @@ const QuizCharacter = () => {
         const nextQuestion = indexQuestion + 1;
         if (nextQuestion < questionsData.questions.length) {
             setIndexQuestion(nextQuestion);
-            handleOptionclick();
+            setClicked(false);
         } else {
             setShowScore(true);
         };
@@ -87,9 +94,9 @@ const QuizCharacter = () => {
                         onClick={() => goNextQuestion()} >Próxima</button>
                     <div className={styles.score}>
                         Pontuação {score}{'/'}{questionsData.questions.length}
-                    </div >
-                </> : <h1 className={styles.message}>Você acertou {score} pergunta(s)! </h1>}
-        </div >
+                    </div>
+                </> : <Score score={score} />}
+        </div>
     );
 };
 
