@@ -15,6 +15,7 @@ const QuizCharacter = () => {
     const [clicked, setClicked] = useState(false);
     const [indexQuestion, setIndexQuestion] = useState(0);
     const [showScore, setShowScore] = useState(false);
+    const [teste, setTeste] = useState();
     const [score, setScore] = useState(0);
     const [questionsData, setQuestionsData] = useState(
         {
@@ -49,19 +50,14 @@ const QuizCharacter = () => {
             setClicked(true);
 
             const option = document.getElementById(index);
+            setTeste(option)
             const response = questionsData.questions[indexQuestion].answer;
 
             if (selectedItem === response) {
                 option.className = styles.success;
                 setScore(score + 1);
-                setTimeout(function () {
-                    option.className = styles.option;
-                }, 1000);
             } else {
                 option.className = styles.error;
-                setTimeout(function () {
-                    option.className = styles.option;
-                }, 1000);
             };
         };
     };
@@ -71,6 +67,9 @@ const QuizCharacter = () => {
         if (nextQuestion < questionsData.questions.length) {
             setIndexQuestion(nextQuestion);
             setClicked(false);
+            setTimeout(function () {
+                teste.className = styles.option;
+            }, );
         } else {
             setShowScore(true);
         };
