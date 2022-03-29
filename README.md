@@ -2,4 +2,5 @@
   
   <h3 align="center">Descrição do Projeto </h3>
 <p align="center">Neste projeto foi desenvolvido um quiz para cada personagem da famosa série <i>Friends</i>.</p>
+  <p align="center">Disponível em: https://emillymaarinho.github.io/quiz_friends/ </p>
   
