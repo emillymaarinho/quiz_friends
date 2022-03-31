@@ -1,23 +1,29 @@
 {
   "files": {
-    "main.css": "/quiz_friends/static/css/main.5e2884a9.css",
-    "main.js": "/quiz_friends/static/js/main.c3ae2785.js",
+    "main.css": "/quiz_friends/static/css/main.75b6a420.css",
+    "main.js": "/quiz_friends/static/js/main.cd831396.js",
     "static/js/787.8e41125d.chunk.js": "/quiz_friends/static/js/787.8e41125d.chunk.js",
     "static/media/monicagif.gif": "/quiz_friends/static/media/monicagif.1bfa50a7f73686fa7315.gif",
     "static/media/phoebegif.gif": "/quiz_friends/static/media/phoebegif.7577ef297d65fe3a8511.gif",
     "static/media/joeygif.gif": "/quiz_friends/static/media/joeygif.07413a0df309e5d42188.gif",
     "static/media/rachelgif.gif": "/quiz_friends/static/media/rachelgif.9f46d3de5839e31f8ea5.gif",
     "static/media/chandlergif.webp": "/quiz_friends/static/media/chandlergif.41dc1105b3fc19588ae7.webp",
+    "static/media/phoebe.jpeg": "/quiz_friends/static/media/phoebe.13b61f1370183dcf23f7.jpeg",
     "static/media/rossgif.webp": "/quiz_friends/static/media/rossgif.19793649f02dd457ea21.webp",
+    "static/media/joye.jpeg": "/quiz_friends/static/media/joye.cbcbf1e52c3d8666938d.jpeg",
+    "static/media/monica.jpeg": "/quiz_friends/static/media/monica.318933edbf6c9b3f771a.jpeg",
+    "static/media/chandler.jpeg": "/quiz_friends/static/media/chandler.9b0f3365f513841b4fc5.jpeg",
+    "static/media/rachel.jpeg": "/quiz_friends/static/media/rachel.bf2799812e767d151830.jpeg",
     "static/media/titulo2.png": "/quiz_friends/static/media/titulo2.5a6e2cb04de885d02193.png",
     "static/media/friends.jpeg": "/quiz_friends/static/media/friends.35aadc9846306d778bd4.jpeg",
+    "static/media/ross.webp": "/quiz_friends/static/media/ross.09c4d8adc4f1d465abc2.webp",
     "index.html": "/quiz_friends/index.html",
-    "main.5e2884a9.css.map": "/quiz_friends/static/css/main.5e2884a9.css.map",
-    "main.c3ae2785.js.map": "/quiz_friends/static/js/main.c3ae2785.js.map",
+    "main.75b6a420.css.map": "/quiz_friends/static/css/main.75b6a420.css.map",
+    "main.cd831396.js.map": "/quiz_friends/static/js/main.cd831396.js.map",
     "787.8e41125d.chunk.js.map": "/quiz_friends/static/js/787.8e41125d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5e2884a9.css",
-    "static/js/main.c3ae2785.js"
+    "static/css/main.75b6a420.css",
+    "static/js/main.cd831396.js"
   ]
 }
