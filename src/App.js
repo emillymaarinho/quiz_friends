@@ -3,11 +3,9 @@ import Home from './pages/Home';
 import QuizCharacter from './pages/QuizCharacter';
 import './App.css';
 
-
-
 const App = () => {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Switch>
         <Route exact path="/">
           <Home />
@@ -17,7 +15,7 @@ const App = () => {
         </Route>
       </Switch>
     </Router>
-  )
-}
+  );
+};
 
 export default App;

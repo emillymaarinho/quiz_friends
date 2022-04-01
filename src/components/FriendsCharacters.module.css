@@ -1,7 +1,28 @@
 .characters_container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    width: 100%;
   }
+
+  @media (max-width: 2000px) {
+    .characters_container {
+      gap: 25px;
+    }
+  }
+
+  @media (max-width: 1440px) {
+    .characters_container {
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+  }
+  @media (max-width: 320px) {
+    .characters_container {
+      gap: 0px;
+    }
+  }
+
+
 
 
   

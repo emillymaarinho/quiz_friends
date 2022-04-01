@@ -8,7 +8,7 @@
     font-size: 25px;
     margin-left: auto;
     margin-right: auto;
-    width: 15%;
+    width: 20%;
     margin-bottom: 30px;
     text-align: center;
 }
@@ -21,18 +21,29 @@
     border: 1px solid;
     border-radius: 5px;
     font-size: 25px;
-    width: 15%;
+    width: 20%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
     text-align: center;
 }
 
+.image {
+    width: 200px;
+    height: 200px;
+    margin-top: 30px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: fill;
+    border: 3px solid #253b8e;
+}
+
 .phrase {
     width: 100%;
     padding: 10px;
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     color: #253b8e;
     font-family: 'Jazz LET', fantasy;
     font-style: italic;
@@ -41,7 +52,7 @@
 .question {
     color:#253b8e;
     font-size: 30px;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 
 .option {
@@ -53,10 +64,10 @@
     transform: translateX(0) scale(.9);
     background-color: #fff;
     border-color: #c3e6cb;
-    padding: 5px 80px;
+    padding: 5px 110px;
     border: 1px solid;
     border-radius: 5px;
-    width: 15%;
+    width: 20%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -91,4 +102,151 @@
     font-size: 20px;
 }
 
+@media (max-width: 2560px) {
+    .image {
+        width: 320px;
+        height: 320px;
+    }
+    .question {
+        font-size: 40px;
+    }
+    .option {
+        font-size: 38px;
+        padding: 12px 150px;
+    }
+    .button {
+        font-size: 32px;
+        border-radius: 20px;
+    }
+    .score {
+        font-size: 28px;
+    }
+    .success {
+        font-size: 38px;
+        padding: 12px 150px;
+    }
+    .error {
+        font-size: 38px;
+        padding: 12px 150px;
+    }
+}
 
+@media (max-width: 2000px) {
+    .image {
+        width: 180px;
+        height: 180px;
+    }
+    .phrase {
+        font-size: 22px;
+    }
+    .question {
+        font-size: 28px;
+    }
+    .option {
+        font-size: 22px;
+        padding: 8px 150px;
+    }
+    .button {
+        font-size: 20px;
+        border-radius: 12px;
+    }
+    .score {
+        font-size: 20px;
+    }
+    .success {
+        font-size: 22px;
+        padding: 8px 150px;
+    }
+    .error {
+        font-size: 22px;
+        padding: 8px 150px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .question {
+        font-size: 22px;
+    }
+    .option {
+        font-size: 20px;
+        padding: 5px 150px;
+        width: 35%;
+    }
+    .button {
+        font-size: 18px;
+        border-radius: 12px;
+    }
+    .score {
+        font-size: 16px;
+    }
+    .success {
+        font-size: 20px;
+        padding: 5px 150px;
+        width: 35%;
+    }
+    .error {
+        font-size: 20px;
+        padding: 5px 150px;
+        width: 35%;
+    }
+}
+
+@media (max-width: 425px) {
+    .phrase {
+    font-size: 18px;
+    }
+    .question {
+        font-size: 20px;
+    }
+    .option {
+        font-size: 18px;
+        width: 20%;
+    }
+    .button {
+        font-size: 15px;
+        border-radius: 10px;
+    }
+    .score {
+        font-size: 14px;
+    }
+    .success {
+        font-size: 18px;
+        width: 20%;
+    }
+    .error {
+        font-size: 18px;
+        width: 20%;
+    }
+}
+
+@media (max-width: 320px) {
+    .phrase {
+    font-size: 15px;
+    }
+    .question {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+    .option {
+        font-size: 15px;
+        width: 30%;
+        padding: 5px 100px;
+        margin-bottom: 20px;
+    }
+    .success {
+        font-size: 15px;
+        width: 30%;
+        padding: 5px 100px;
+        margin-bottom: 20px;
+    }
+    .error {
+        font-size: 15px;
+        width: 30%;
+        padding: 5px 100px;
+        margin-bottom: 20px;
+    }
+    .image {
+        width: 150px;
+        height: 150px;
+    }
+}

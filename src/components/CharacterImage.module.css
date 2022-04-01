@@ -1,6 +1,6 @@
 .character_picture {
-    width: 200px;
-    height: 200px;
+  width: 270px;
+  height: 270px;
     border-radius: 50%;
     cursor: pointer;
     transition: transform .5s;
@@ -12,6 +12,33 @@
     transform: translateX(8px) scale(1);
 }
 
+@media (max-width: 2560px) {
+  .character_picture {
+    width: 400px;
+    height: 400px;
+  }
+}  
+
+@media (max-width: 2000px) {
+  .character_picture {
+    width: 220px;
+    height: 220px;
+}
+}
+
+@media (max-width: 673px) {
+  .character_picture {
+    width: 200px;
+    height: 200px;
+}
+}
+
+@media (max-width: 425px) {
+  .character_picture {
+    width: 180px;
+    height: 180px;
+}
+}
 
 
  

@@ -1,32 +1,32 @@
 const QuestionsChandler = {
     phrase: "Eu não sou bom em dar conselhos. Você quer um comentário sarcástico?", questions: [
         {
-            title: "Qual é a profissão da mãe de Chandler?",
+            title: "1- Qual é a profissão da mãe de Chandler?",
             options: ["Drag queen", "Escritora", "Médica"],
             answer: "Escritora"
         },
         {
-            title: "Antes de Joey, com quem ele dividia apartamento?",
+            title: "2- Antes de Joey, com quem ele dividia apartamento?",
             options: ["Ross", "Kip", "Ryan"],
             answer: "Kip"
         },
         {
-            title: "Qual animal o personagem odeia?",
+            title: "3- Qual animal o personagem odeia?",
             options: ["Aranha", "Gato", "Cachorro"],
             answer: "Cachorro"
         },
         {
-            title: "Qual feriado ele detesta no começo da série?",
+            title: "4- Qual feriado ele detesta no começo da série?",
             options: ["Dia da Independência", "Halloween", "Dia de Ação de Graças"],
             answer: "Dia de Ação de Graças"
         },
         {
-            title: "Qual personagem derrubou um faca nos pés de Chandler, fazendo com que ele perdesse a ponta de um dedo?",
+            title: "5- Qual personagem derrubou um faca nos pés de Chandler, fazendo com que ele perdesse a ponta de um dedo?",
             options: ["Monica Gueller", "Joey Tribbiani", "Phoebe Buffay"],
             answer: "Monica Gueller"
         },
         {
-            title: "Quais animais de estimação ele e Joey já tiveram?",
+            title: "6- Quais animais de estimação ele e Joey já tiveram?",
             options: ["Um esquilo e um macaco", "Um pato e um galo", "Um macaco e um galo"],
             answer: "Um pato e um galo"
         },

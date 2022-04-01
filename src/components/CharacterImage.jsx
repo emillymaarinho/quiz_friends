@@ -6,7 +6,7 @@ const CharacterImage = (props) => {
 
     return (
         <div >
-            <img {...remainingProps} alt={alt} className={styles.character_picture} style={{ border: `2px solid ${borderColor}` }} />
+            <img {...remainingProps} alt={alt} className={styles.character_picture} style={{ border: `3px solid ${borderColor}` }} />
         </div>
     )
 }
