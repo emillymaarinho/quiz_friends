@@ -2,13 +2,13 @@
     color: #155724;
     background-color: #daedda;
     border-color: #c3e6cb;
-    padding: 5px 80px;
+    padding: 5px;
     border: 1px solid;
     border-radius: 5px;
     font-size: 25px;
     margin-left: auto;
     margin-right: auto;
-    width: 20%;
+    width: 60%;
     margin-bottom: 30px;
     text-align: center;
 }
@@ -17,11 +17,11 @@
     color: #721c24;
     background-color: #f8d7da;
     border-color: #f5c6bc;
-    padding: 10px 80px;
+    padding: 10px;
     border: 1px solid;
     border-radius: 5px;
     font-size: 25px;
-    width: 20%;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
@@ -64,10 +64,10 @@
     transform: translateX(0) scale(.9);
     background-color: #fff;
     border-color: #c3e6cb;
-    padding: 5px 110px;
+    padding: 5px;
     border: 1px solid;
     border-radius: 5px;
-    width: 20%;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -85,11 +85,16 @@
 .button {
     font-size: 20px;
     cursor: pointer;
-    color: #8b2022;
-    background-color: #616d97;
+    color: #fff;
+    background-color: #253b8e;
     padding: 5px 20px;
-    border-radius: 10px;
+    border-radius: 50%;
     margin-top: 50px;
+    border: none;
+}
+
+.button:hover {
+    background-color: #baabe4;
 }
 
 .direction_btn {
@@ -111,8 +116,7 @@
         font-size: 40px;
     }
     .option {
-        font-size: 38px;
-        padding: 12px 150px;
+        font-size: 38px;       
     }
     .button {
         font-size: 32px;
@@ -123,11 +127,9 @@
     }
     .success {
         font-size: 38px;
-        padding: 12px 150px;
     }
     .error {
         font-size: 38px;
-        padding: 12px 150px;
     }
 }
 
@@ -144,7 +146,7 @@
     }
     .option {
         font-size: 22px;
-        padding: 8px 150px;
+        width: 50%;
     }
     .button {
         font-size: 20px;
@@ -155,11 +157,11 @@
     }
     .success {
         font-size: 22px;
-        padding: 8px 150px;
+        width: 50%;
     }
     .error {
         font-size: 22px;
-        padding: 8px 150px;
+        width: 50%;
     }
 }
 
@@ -169,8 +171,7 @@
     }
     .option {
         font-size: 20px;
-        padding: 5px 150px;
-        width: 35%;
+        width: 80%;
     }
     .button {
         font-size: 18px;
@@ -182,12 +183,11 @@
     .success {
         font-size: 20px;
         padding: 5px 150px;
-        width: 35%;
+        width: 80%;
     }
     .error {
         font-size: 20px;
-        padding: 5px 150px;
-        width: 35%;
+        width: 80%;
     }
 }
 
@@ -200,7 +200,7 @@
     }
     .option {
         font-size: 18px;
-        width: 20%;
+        width: 100%;
     }
     .button {
         font-size: 15px;
@@ -211,11 +211,11 @@
     }
     .success {
         font-size: 18px;
-        width: 20%;
+        width: 100%;
     }
     .error {
         font-size: 18px;
-        width: 20%;
+        width: 100%;
     }
 }
 
@@ -229,20 +229,14 @@
     }
     .option {
         font-size: 15px;
-        width: 30%;
-        padding: 5px 100px;
         margin-bottom: 20px;
     }
     .success {
         font-size: 15px;
-        width: 30%;
-        padding: 5px 100px;
         margin-bottom: 20px;
     }
     .error {
         font-size: 15px;
-        width: 30%;
-        padding: 5px 100px;
         margin-bottom: 20px;
     }
     .image {

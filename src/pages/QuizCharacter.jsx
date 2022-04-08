@@ -28,7 +28,6 @@ const QuizCharacter = () => {
     const [showScore, setShowScore] = useState(false);
     const [clearStyle, setclearStyle] = useState();
     const [score, setScore] = useState(0);
-    const [characterQuiz, setCharacterQuiz] = useState();
     const [questionsData, setQuestionsData] = useState(
         {
             phrase: "", questions: [{
@@ -44,27 +43,21 @@ const QuizCharacter = () => {
         const character = location.search.replace(/^.*?\=/, '');
         if (character === "monica") {
             setQuestionsData(QuestionsMonica);
-            setCharacterQuiz(character);
             setImage(imgMonica);
         } else if (character === "chandler") {
             setQuestionsData(QuestionsChandler);
-            setCharacterQuiz(character);
             setImage(imgChandler);
         } else if (character === "phoebe") {
             setQuestionsData(QuestionsPhoebe);
-            setCharacterQuiz(character);
             setImage(imgPhoebe);
         } else if (character === "rachel") {
             setQuestionsData(QuestionsRachel);
-            setCharacterQuiz(character);
             setImage(imgRachel);
         } else if (character === "joey") {
             setQuestionsData(QuestionsJoey);
-            setCharacterQuiz(character);
             setImage(imgJoye);
         } else if (character === "ross") {
             setQuestionsData(QuestionsRoss);
-            setCharacterQuiz(character);
             setImage(imgRoss);
         }
     }, [location.search]);
@@ -87,15 +80,17 @@ const QuizCharacter = () => {
     };
 
     const goNextQuestion = () => {
-        const nextQuestion = indexQuestion + 1;
-        if (nextQuestion < questionsData.questions.length) {
-            setIndexQuestion(nextQuestion);
-            setClicked(false);
-            setTimeout(function () {
-                clearStyle.className = styles.option;
-            });
-        } else {
-            setShowScore(true);
+        if (clicked) {
+            const nextQuestion = indexQuestion + 1;
+            if (nextQuestion < questionsData.questions.length) {
+                setIndexQuestion(nextQuestion);
+                setClicked(false);
+                setTimeout(function () {
+                    clearStyle.className = styles.option;
+                });
+            } else {
+                setShowScore(true);
+            };
         };
     };
 
@@ -119,7 +114,7 @@ const QuizCharacter = () => {
                     <div className={styles.score}>
                         Pontuação {score}{'/'}{questionsData.questions.length}
                     </div>
-                </> : <Score score={score} character={characterQuiz} />}
+                </> : <Score score={score} totalOfQuestions={questionsData.questions.length}/>}
         </div>
     );
 };
