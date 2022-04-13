@@ -29,6 +29,11 @@ const QuestionsJoey = { phrase: "How you doing!?", questions: [
         options: ["Fogo", "Ventilador", "Balão d'água"],
         answer: "Fogo"
     },
+    {
+        title: "7- Qual é o nome da namorada de Joey que Chandler `rouba`?",
+        options: ["Aurora", "Angela", "Kathy"],
+        answer: "Kathy"
+    },
 ]}
 
 export default QuestionsJoey;

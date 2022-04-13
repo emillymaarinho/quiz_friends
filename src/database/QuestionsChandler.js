@@ -30,6 +30,11 @@ const QuestionsChandler = {
             options: ["Um esquilo e um macaco", "Um pato e um galo", "Um macaco e um galo"],
             answer: "Um pato e um galo"
         },
+        {
+            title: "7- Qual nome do meio de Chandler?",
+            options: ["Murilo", "Muriel", "Mark"],
+            answer: "Murilo"
+        },
     ]
 }
 

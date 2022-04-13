@@ -182,7 +182,7 @@
     }
     .success {
         font-size: 20px;
-        padding: 5px 150px;
+        padding: 5px;
         width: 80%;
     }
     .error {
@@ -200,7 +200,13 @@
     }
     .option {
         font-size: 18px;
-        width: 100%;
+        width: 90%;
+        transition: none;
+        transform: none;
+    }
+    .option:hover,
+    .option:focus { 
+        transform: none;
     }
     .button {
         font-size: 15px;
@@ -211,17 +217,17 @@
     }
     .success {
         font-size: 18px;
-        width: 100%;
+        width: 90%;
     }
     .error {
         font-size: 18px;
-        width: 100%;
+        width: 90%;
     }
 }
 
 @media (max-width: 320px) {
     .phrase {
-    font-size: 15px;
+        font-size: 15px;
     }
     .question {
         font-size: 16px;

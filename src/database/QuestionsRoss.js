@@ -30,6 +30,11 @@ const QuestionsRoss = {
             options: ["Emilly o traiu", "Ele falou o nome de Rachel no altar", "Emilly se apaixou por uma mulher"],
             answer: "Ele falou o nome de Rachel no altar"
         },
+        {
+            title: "7- Onde acontece o primeiro beijo entre Ross e Rachel?",
+            options: ["No apartamento", "Na lavanderia", "No café"],
+            answer: "No café"
+        },
     ]
 }
 

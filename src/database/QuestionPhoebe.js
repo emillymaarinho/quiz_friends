@@ -29,6 +29,11 @@ const QuestionsPhoebe = { phrase: "Hi, my name is Regina Phalange!", questions: 
         options: ["Para morar com Mike", "Porque ganhou na loteria", "Porque não aguentava as manias de Monica"],
         answer: "Porque não aguentava as manias de Monica"
     },
+    {
+        title: "7- Qual o nome dos trigêmeos que Phoebe deu à luz?",
+        options: ["Chandler, Joan e Sadie", "Lexi, Frank Jr. e Charlie", "Lesley, Chandler e Hrank Jr. Jr."],
+        answer: "Lesley, Chandler e Hrank Jr. Jr."
+    },
 ]}
 
 export default QuestionsPhoebe;

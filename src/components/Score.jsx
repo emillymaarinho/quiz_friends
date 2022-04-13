@@ -5,9 +5,9 @@ import home from '../assets/pagina-inicial.png';
 const Score = ({ score, totalOfQuestions }) => {
 
     const message = () => {
-        if (score === 6) {
+        if (score === 7) {
             return "UAU! Você é realmente fã da série hahah"
-        } else if (score === 4 || score === 5) {
+        } else if (score === 4 || score === 5 || score === 6) {
             return "Nossa! Você chegou quaaase lá!"
         } else if (score <= 3 && score !== 0) {
             return "Você assistiu a série toda!?"
